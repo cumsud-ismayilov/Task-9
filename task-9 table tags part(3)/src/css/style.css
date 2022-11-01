@@ -1,0 +1,42 @@
+ *{
+    box-sizing: border-box;
+ }
+
+table,tr,th,td {
+  border: 1px solid black;
+ border-collapse: collapse;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 12px 40px;
+}
+th{
+    color: black;
+}
+
+
+
+
+tr:nth-child(6n-5){
+    background-color: aqua;
+    color: aliceblue;
+}
+tr:nth-child(6n-4){
+    background-color: blue;
+    color: aliceblue;
+}
+tr:nth-child(6n-3){
+    background-color: brown;
+    color: aliceblue;
+}
+tr:nth-child(6n-2){
+    background-color: blueviolet;
+    color: aliceblue;
+}
+tr:nth-child(6n-1){
+    background-color: yellowgreen;
+   color: aliceblue;
+}
+tr:nth-child(6n){
+    background-color: green;
+     color: aliceblue;
+}  

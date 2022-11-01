@@ -1,0 +1,14 @@
+table,tr,td{  border: 1px solid black;
+    
+        margin-left: auto;
+        margin-right: auto;
+    text-align:center
+    
+
+ }
+
+h1{  text-align: center;}
+
+tr :last-child{
+    text-align: left;
+}
